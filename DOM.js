@@ -52,4 +52,4 @@
 
 let a=document.querySelectorAll(".b")
 console.log(a);
-//a.style.background="purple"
+a.style.background="purple";
