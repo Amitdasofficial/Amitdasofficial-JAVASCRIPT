@@ -50,6 +50,31 @@
 
 
 
-let a=document.querySelectorAll(".b")
-console.log(a);
-a.style.background="purple";
+// let a=document.querySelectorAll(".b")
+// console.log(a);
+// a.style.background="purple";
+
+
+
+let headingTag=document.createElement("h1")
+let para=document.createElement("p")
+
+headingTag.innerText="Hello World"
+para.innerHTML="Praragraph"
+document.body.append(headingTag)
+document.body.append(para)
+let orderList=document.createElement("ol")
+
+let li1=document.createElement("li")
+let li2=document.createElement("li")
+let li3=document.createElement("li")
+
+
+li1.innerText="Apple"
+li2.innerText="Bananna"
+li3.innerText="Orange"
+
+orderList.appendChild(li1)
+orderList.appendChild(li2)
+orderList.appendChild(li3)
+document.body.append(orderList)
